@@ -17,7 +17,7 @@ public class MenuScript : MonoBehaviour
     public void Jogar()
     {
         Debug.Log("Mudando pra cena de Jogo");
-        SceneManager.LoadScene(scenePlay); ;
+        SceneManager.LoadScene(scenePlay);
     }
 
     public void Sair()
