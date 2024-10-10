@@ -14,12 +14,6 @@ public class MenuScript : MonoBehaviour
     public GameObject botaoMute;
 
 
-    private void Update()
-    {
-        ControleAudio();
-    }   
-
-
     public void Jogar()
     {
         Debug.Log("Mudando pra cena de Jogo");
@@ -40,23 +34,20 @@ public class MenuScript : MonoBehaviour
 
     public void ControleAudio()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (audioOn)
         {
-            if (audioOn)
-            {
-                Debug.Log("Audio Desligado");
-                audio.volume = 0f;
-                botaoVolume.SetActive(false);
-                botaoMute.SetActive(true);
-            }
-            else
-            {
-                Debug.Log("Audio Ligado!");
-                audio.volume = 1f;
-                botaoVolume.SetActive(true);
-                botaoMute.SetActive(false);
-            }
-            audioOn = !audioOn;
+            Debug.Log("Audio Desligado");
+            audio.volume = 0f;
+            botaoVolume.SetActive(false);
+            botaoMute.SetActive(true);
         }
+        else
+        {
+            Debug.Log("Audio Ligado!");
+            audio.volume = 1f;
+            botaoVolume.SetActive(true);
+            botaoMute.SetActive(false);
+        }
+        audioOn = !audioOn;
     }
 }
