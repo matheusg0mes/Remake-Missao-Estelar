@@ -384,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenePlay: jogo
   sceneCredito: Credito
-  audio: {fileID: 195428804}
+  audio: {fileID: 0}
   botaoVolume: {fileID: 1008595176}
   botaoMute: {fileID: 1784493604}
 --- !u!4 &387426153
