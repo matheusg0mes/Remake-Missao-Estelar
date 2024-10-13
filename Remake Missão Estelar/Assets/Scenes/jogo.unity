@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.04526668, g: 0.039762508, b: 0.047981627, a: 1}
+  m_IndirectSpecularColor: {r: 0.04527913, g: 0.039755568, b: 0.047978833, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7159,12 +7159,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2100510604}
+  m_Father: {fileID: 1347497480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 422, y: 20}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 96, y: 12}
+  m_SizeDelta: {x: 200, y: 380.8333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280881173
 MonoBehaviour:
@@ -7208,8 +7208,8 @@ MonoBehaviour:
     explora\xE7\xE3o revela cada vez mais sobre os mist\xE9rios do nosso sistema
     estelar."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7233,8 +7233,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 11.5
+  m_fontSizeBase: 11.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7269,7 +7269,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -256.589, y: 0, z: -216.01117, w: 0}
+  m_margin: {x: 86.54721, y: 30.773926, z: -186.49573, w: -24.62326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9708,14 +9708,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1692533684}
+  m_Children: []
   m_Father: {fileID: 1355393345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350, y: 170}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 170, y: 0.0000046492}
+  m_SizeDelta: {x: 450, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545267407
 MonoBehaviour:
@@ -9737,7 +9736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99ae4c0b2c73d9d4aa8be0d727ed1c79, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 449960adb12c0f94b99cd3fc6fc2164e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10297,14 +10296,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2038512854}
+  m_Children: []
   m_Father: {fileID: 1649469429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347, y: 167.2}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 176.0429, y: -1.0444}
+  m_SizeDelta: {x: 447.9113, y: 447.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &691384413
 MonoBehaviour:
@@ -10326,7 +10324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a317dcc0b42b6742a29a3032397aaa6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 057557fa230ded54b9f8aa8588d02151, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14016,6 +14014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269b450f856930445aba28dc3e3206e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultPanel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &1082612821
 GameObject:
   m_ObjectHideFlags: 0
@@ -15539,6 +15539,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 280881172}
   - {fileID: 2100510604}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15560,14 +15561,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecb7b8df97ea2af47a4b2c9589ecbe4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a5985d8f4909d14cbba8515bc8ac7f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15615,6 +15616,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1692533684}
   - {fileID: 545267406}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15636,14 +15638,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecb7b8df97ea2af47a4b2c9589ecbe4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a5985d8f4909d14cbba8515bc8ac7f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17794,6 +17796,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2038512854}
   - {fileID: 691384412}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17815,7 +17818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18561,11 +18564,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 545267406}
+  m_Father: {fileID: 1355393345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 155, y: 9.000015}
+  m_AnchoredPosition: {x: 193, y: 281}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692533685
@@ -18608,8 +18611,8 @@ MonoBehaviour:
     a comunidade cient\xEDfica. Saturno permanece como um dos objetos mais cativantes
     e enigm\xE1ticos do sistema solar, enriquecendo nossa compreens\xE3o do cosmos.\r\n\r\n\r\n\r\n\r\n\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18633,8 +18636,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 11.36
+  m_fontSizeBase: 11.36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18669,7 +18672,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -488.86816, w: 0}
+  m_margin: {x: 0, y: 146.188, z: -85.9285, w: -492.627}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -24547,6 +24550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269b450f856930445aba28dc3e3206e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultPanel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1001 &1795893443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26776,12 +26781,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 691384412}
+  m_Father: {fileID: 1649469429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 430, y: 11.800034}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 461, y: -30}
+  m_SizeDelta: {x: 200, y: 396.4368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2038512855
 MonoBehaviour:
@@ -26826,8 +26831,8 @@ MonoBehaviour:
     continua a desafiar a imagina\xE7\xE3o e a pesquisa cient\xEDfica, mantendo seu
     status como um dos destinos mais empolgantes para a explora\xE7\xE3o espacial."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26851,8 +26856,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 11.12
+  m_fontSizeBase: 11.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26887,7 +26892,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -271.50208, y: 0, z: -207.61978, w: 0}
+  m_margin: {x: -271.50208, y: 0, z: 174.4338, w: 22.11316}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27631,14 +27636,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 280881172}
+  m_Children: []
   m_Father: {fileID: 1347497480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342, y: 168}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0.46}
+  m_AnchorMax: {x: 0.615, y: 0.5}
+  m_AnchoredPosition: {x: 125.29, y: 9}
+  m_SizeDelta: {x: 365.4181, y: 432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100510605
 MonoBehaviour:
@@ -27660,7 +27664,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b56cc973d5906104d932c1c9a1c93a41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a847d39bb6674d74eb263eb846fb47d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
