@@ -48,10 +48,8 @@ public class t_saturno : MonoBehaviour
             GameObject solObject = GameObject.FindGameObjectWithTag("sol");
             if (solObject != null)
             {
-                Vector3 deslocamento = new Vector3(-200, 0, 0); 
                 Transform solTransform = solObject.transform;
                 collision.gameObject.transform.LookAt(solTransform);
-                collision.gameObject.transform.position += deslocamento; // Move a nave para o lado planeta
             }
 
             infoSaturno.SetActive(true);
