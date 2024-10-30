@@ -11,7 +11,7 @@ public class script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -21,37 +21,22 @@ public class script : MonoBehaviour
         {
             if (pausa.activeSelf)
             {
-                Despausar();
+                pausa.SetActive(false);
+
+                Time.timeScale = 1;
             }
             else
             {
-                Pausar();
+                pausa.SetActive(true);
+
+                Time.timeScale = 0;
             }
         }
 
         if (pausa.activeSelf && Input.GetKeyDown(KeyCode.Return))
         {
-            Sair();
+            Debug.Log("Saiu do jogo");
+            Application.Quit();
         }
-    }
-
-    public void Pausar()
-    {
-        pausa.SetActive(true);
-
-        Time.timeScale = 0;
-    }
-
-    public void Despausar()
-    {
-        pausa.SetActive(false);
-
-        Time.timeScale = 1;
-    }
-
-    public void Sair()
-    {
-        Debug.Log("Saiu do jogo");
-        Application.Quit();
     }
 }
