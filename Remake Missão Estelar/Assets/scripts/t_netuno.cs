@@ -51,7 +51,7 @@ public class t_netuno : MonoBehaviour
             {
                 Transform solTransform = solObject.transform;
                 collision.gameObject.transform.LookAt(solTransform);
-                collision.gameObject.transform.position = new Vector3(-2030, 1111, 999); 
+                collision.gameObject.transform.position = new Vector3(-2030, 1111, 999); // Faz o enquadramento da nave ao lado do planeta e olhando para o sol
             }
 
             infoNetuno.SetActive(true);
