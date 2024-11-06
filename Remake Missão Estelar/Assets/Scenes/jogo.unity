@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.044421054, g: 0.039693158, b: 0.047101155, a: 1}
+  m_IndirectSpecularColor: {r: 0.044421576, g: 0.03969398, b: 0.04710237, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1131,6 +1131,10 @@ PrefabInstance:
     - target: {fileID: 6485408185712221783, guid: 87b9a4542359e46449137ac4dc506f5c, type: 3}
       propertyPath: m_Name
       value: Pausa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485408185712221783, guid: 87b9a4542359e46449137ac4dc506f5c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654633203591694792, guid: 87b9a4542359e46449137ac4dc506f5c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6571,14 +6575,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1870844070}
+  m_Children: []
   m_Father: {fileID: 630047846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -346.4, y: 166.3}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 177, y: -1}
+  m_SizeDelta: {x: 439.4014, y: 439.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157531494
 MonoBehaviour:
@@ -6600,7 +6603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed8729ce45ad42b46b803a26ff160c0f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2f5bf009a82b7740be21d89be41fe93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6647,14 +6650,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1800790527}
+  m_Children: []
   m_Father: {fileID: 949463316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349, y: 170}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 175, y: 0}
+  m_SizeDelta: {x: 441.8859, y: 441.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187057361
 MonoBehaviour:
@@ -6676,7 +6678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 307b9fb43ed19f6488889a16373fc993, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40c9b1b5915287548a72d641f12ba2f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7116,11 +7118,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 808339349}
+  m_Father: {fileID: 1026138632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 164.99997, y: 8.9999695}
+  m_AnchoredPosition: {x: 188, y: 137}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268451896
@@ -7143,29 +7145,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "V\xEAnus: O Planeta Irm\xE3o da Terra com um Passado Intrigante\n\nV\xEAnus,
-    o planeta irm\xE3o da Terra, \xE9 um enigma no sistema solar. Uma teoria sugere
-    que ele j\xE1 foi semelhante \xE0 Terra, com oceanos e um clima ameno, antes
-    de se transformar em um mundo abrasador devido a mudan\xE7as catacl\xEDsmicas.
-    A observa\xE7\xE3o das fases de V\xEAnus por Galileu Galilei, que confirmou sua
-    \xF3rbita ao redor do Sol, foi um marco na hist\xF3ria da astronomia. V\xEAnus
-    sofre de um efeito estufa descontrolado, com uma densa atmosfera rica em di\xF3xido
-    de carbono que mant\xE9m temperaturas superficiais extremamente altas, quentes
-    o suficiente para derreter chumbo. O nome do planeta faz refer\xEAncia \xE0 deusa
-    romana do amor, V\xEAnus, devido \xE0 sua luminosidade no c\xE9u noturno. As
-    miss\xF5es espaciais, como a sonda Mariner 2 e a russa Venera 7, contribu\xEDram
-    para nossa compreens\xE3o da atmosfera sufocante e do terreno venusiano, revelando
-    um mundo de contrastes extremos que continua a desafiar a ci\xEAncia e a inspirar
-    explora\xE7\xF5es futuras.\r\n\r\nV\xEAnus, um mundo com um passado intrigante,
-    possui uma atmosfera dominada pelo di\xF3xido de carbono e temperaturas escaldantes
-    devido ao efeito estufa descontrolado. Suas caracter\xEDsticas \xFAnicas, como
-    as montanhas de Maxwell Montes e as miss\xF5es pioneiras, como a Mariner 2 e
-    a Venera 7, ajudaram a lan\xE7ar luz sobre os mist\xE9rios desse planeta. A teoria
-    moderna do efeito estufa explica a forma\xE7\xE3o da atmosfera e do clima extremo
-    de V\xEAnus devido \xE0 alta concentra\xE7\xE3o de di\xF3xido de carbono na atmosfera.
-    V\xEAnus continua a ser um alvo de estudo e explora\xE7\xE3o para desvendar sua
-    hist\xF3ria evolutiva e compreender o papel do efeito estufa em sua atmosfera
-    mortal."
+  m_text: "V\xEAnus, o planeta irm\xE3o da Terra, \xE9 um mist\xE9rio no Sistema
+    Solar. Acredita-se que tenha sido semelhante \xE0 Terra no passado, com oceanos
+    e clima ameno, antes de se tornar um mundo escaldante devido a mudan\xE7as catacl\xEDsmicas.
+    V\xEAnus sofre de um efeito estufa descontrolado, com uma atmosfera densa de
+    di\xF3xido de carbono que resulta em temperaturas superficiais extremamente altas,
+    capazes de derreter chumbo. Seu nome, em homenagem \xE0 deusa romana do amor,
+    reflete sua luminosidade no c\xE9u noturno. Miss\xF5es como Mariner 2 e Venera
+    7 revelaram um planeta de contrastes extremos, com montanhas como Maxwell Montes
+    e um terreno in\xF3spito. V\xEAnus continua sendo alvo de estudo para entender
+    a evolu\xE7\xE3o de sua atmosfera e o impacto do efeito estufa em seu clima mortal."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7192,8 +7181,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7228,7 +7217,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -477.19427, w: 0}
+  m_margin: {x: 0, y: 0, z: -102.89607, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7276,7 +7265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96, y: 12}
+  m_AnchoredPosition: {x: 97, y: 12}
   m_SizeDelta: {x: 200, y: 380.8333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280881173
@@ -7299,30 +7288,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "J\xFApiter: O Gigante Gasoso do Sistema Solar\r\n\r\nJ\xFApiter, o maior
-    planeta do Sistema Solar, \xE9 um gigante gasoso composto principalmente de hidrog\xEAnio
-    e h\xE9lio, cuja massa \xE9 mais de 300 vezes a da Terra, destacando-se como
-    o mais massivo de todos os planetas do sistema. Possui uma impressionante quantidade
-    de 79 luas, incluindo Io, Europa, Ganimedes e Calisto, que s\xE3o alvos de estudo
-    devido \xE0s suas caracter\xEDsticas geol\xF3gicas \xFAnicas e \xE0 possibilidade
-    de abrigarem \xE1gua l\xEDquida sob suas superf\xEDcies geladas. A atmosfera
-    turbulenta de J\xFApiter \xE9 dominada por hidrog\xEAnio e h\xE9lio, apresentando
-    not\xE1veis manchas vermelhas, como a Grande Mancha Vermelha, uma tempestade
-    gigantesca com mais de 350 anos de exist\xEAncia. Al\xE9m disso, embora seus
-    an\xE9is sejam menos impressionantes do que os de Saturno, J\xFApiter tamb\xE9m
-    possui quatro conjuntos de an\xE9is compostos por part\xEDculas de poeira.\r\n\r\nEste
-    planeta desempenha um papel vital no sistema solar, atuando como um \"guardi\xE3o\"
-    que desvia asteroides e cometas potencialmente perigosos, protegendo a Terra.
-    A explora\xE7\xE3o espacial de J\xFApiter tem sido uma prioridade com miss\xF5es
-    como a sonda Galileo, lan\xE7ada em 1989, e a sonda Juno, lan\xE7ada em 2011,
-    que forneceram informa\xE7\xF5es valiosas sobre esse mundo gigante e seu sistema.
-    Em resumo, J\xFApiter \xE9 um planeta espetacular com sua vasta massa, luas intrigantes,
-    atmosfera \xFAnica e influ\xEAncia protetora no sistema solar, e a cont\xEDnua
-    explora\xE7\xE3o revela cada vez mais sobre os mist\xE9rios do nosso sistema
-    estelar."
+  m_text: "J\xFApiter, o maior planeta do Sistema Solar, \xE9 um gigante gasoso composto
+    principalmente de hidrog\xEAnio e h\xE9lio, com uma massa mais de 300 vezes maior
+    que a da Terra. Ele possui 79 luas, incluindo Io, Europa, Ganimedes e Calisto,
+    que s\xE3o alvo de estudo devido a suas caracter\xEDsticas geol\xF3gicas e ao
+    potencial de conter \xE1gua l\xEDquida sob suas superf\xEDcies geladas. Sua atmosfera
+    turbulenta \xE9 marcada pela Grande Mancha Vermelha, uma tempestade gigantesca
+    com mais de 350 anos de exist\xEAncia, e ele tamb\xE9m possui an\xE9is compostos
+    por part\xEDculas de poeira.\r\n\r\nJ\xFApiter desempenha um papel protetor no
+    Sistema Solar, desviando asteroides e cometas que poderiam amea\xE7ar a Terra.
+    Miss\xF5es espaciais, como as sondas Galileo e Juno, t\xEAm proporcionado importantes
+    descobertas sobre o planeta e suas luas. Com sua massa impressionante, luas fascinantes
+    e influ\xEAncia no sistema solar, J\xFApiter continua a ser um dos principais
+    objetos de estudo e explora\xE7\xE3o."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7346,8 +7327,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.5
-  m_fontSizeBase: 11.5
+  m_fontSize: 13.8
+  m_fontSizeBase: 13.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8433,6 +8414,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 882617958}
   - {fileID: 1771612762}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8454,7 +8436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10071,6 +10053,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1225432713}
   - {fileID: 2096965986}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10092,7 +10075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10147,6 +10130,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1870844070}
   - {fileID: 157531493}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10168,7 +10152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11489,14 +11473,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 268451895}
+  m_Children: []
   m_Father: {fileID: 1026138632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347, y: 170}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 176, y: 1}
+  m_SizeDelta: {x: 442.578, y: 442.578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &808339350
 MonoBehaviour:
@@ -11518,7 +11501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6038b87a57e24240b69a04336d28d11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a8548b93293c35439c7c8f71caffa3b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12160,11 +12143,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1771612762}
+  m_Father: {fileID: 408326792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 413, y: 13.699997}
+  m_AnchoredPosition: {x: 435, y: 136}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882617959
@@ -12187,26 +12170,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Merc\xFArio: O Planeta Pr\xF3ximo ao Sol com Mist\xE9rios Profundos\r\n\r\nMerc\xFArio,
-    o planeta mais pr\xF3ximo do Sol, \xE9 um mundo intrigante com uma s\xE9rie de
-    caracter\xEDsticas not\xE1veis. A Bacia Caloris, uma vasta depress\xE3o em sua
-    superf\xEDcie, \xE9 um destaque, provavelmente formada por um impacto gigantesco
-    no passado. Al\xE9m disso, Merc\xFArio possui uma atmosfera extremamente t\xEAnue
-    composta principalmente de h\xE9lio e hidrog\xEAnio, resultante da captura de
-    gases solares. Sua \xF3rbita s\xEDncrona e anomalia de avan\xE7o orbital desafiaram
-    os astr\xF4nomos antes de serem explicadas pela teoria da relatividade de Einstein.
-    As temperaturas extremas na superf\xEDcie variam de cerca de 430\xB0C durante
-    o dia a -180\xB0C \xE0 noite devido \xE0 falta de atmosfera para reter o calor,
-    e sua topografia \xE9 marcada por penhascos, plan\xEDcies vulc\xE2nicas e numerosas
-    crateras de impacto.\r\n\r\nMerc\xFArio \xE9 tamb\xE9m not\xE1vel por n\xE3o
-    possuir luas naturais e ser aproximadamente 38% do tamanho da Terra, tornando-o
-    o menor planeta do sistema solar, excluindo Plut\xE3o. O nome \"Merc\xFArio\"
-    \xE9 uma homenagem ao deus romano da velocidade, Hermes, devido \xE0 r\xE1pida
-    \xF3rbita do planeta em torno do Sol. Apesar dos desafios, miss\xF5es espaciais
-    como a sonda MESSENGER trouxeram valiosas informa\xE7\xF5es sobre Merc\xFArio,
-    que continua a intrigar cientistas e a inspirar futuras explora\xE7\xF5es em
-    busca de respostas para seus mist\xE9rios, gra\xE7as \xE0 sua posi\xE7\xE3o \xFAnica
-    como o planeta mais pr\xF3ximo do Sol."
+  m_text: "Merc\xFArio, o planeta mais pr\xF3ximo do Sol, \xE9 um mundo fascinante
+    com caracter\xEDsticas not\xE1veis, como a Bacia Caloris, uma enorme depress\xE3o
+    causada por um impacto. Sua atmosfera \xE9 muito t\xEAnue, composta principalmente
+    de h\xE9lio e hidrog\xEAnio, e sua \xF3rbita s\xEDncrona e anomalias orbitais
+    foram explicadas pela teoria da relatividade de Einstein. As temperaturas em
+    sua superf\xEDcie variam drasticamente, de 430\xB0C durante o dia a -180\xB0C
+    \xE0 noite, devido \xE0 falta de atmosfera. Merc\xFArio \xE9 o menor planeta
+    do sistema solar, n\xE3o possui luas naturais e \xE9 cerca de 38% do tamanho
+    da Terra. Seu nome vem do deus romano da velocidade, Hermes, em raz\xE3o de sua
+    r\xE1pida \xF3rbita. Miss\xF5es espaciais, como a sonda MESSENGER, t\xEAm fornecido
+    informa\xE7\xF5es valiosas sobre o planeta, que continua a intrigar cientistas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12233,8 +12207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 14.9
+  m_fontSizeBase: 14.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12269,7 +12243,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -247.53336, y: 0, z: -224.23212, w: 0}
+  m_margin: {x: -247.53336, y: 0, z: 146.25967, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12716,6 +12690,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1800790527}
   - {fileID: 187057360}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12737,7 +12712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13472,6 +13447,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 268451895}
   - {fileID: 808339349}
   m_Father: {fileID: 2082268683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13493,7 +13469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13998,6 +13974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269b450f856930445aba28dc3e3206e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultPanel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &1082612821
 GameObject:
   m_ObjectHideFlags: 0
@@ -14416,11 +14394,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2096965986}
+  m_Father: {fileID: 629473776}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 599, y: 18}
+  m_AnchoredPosition: {x: 623, y: 145}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225432714
@@ -14443,23 +14421,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Marte: O Planeta Vermelho e Seus Segredos\r\n\r\nMarte, conhecido como
-    o \"Planeta Vermelho\", \xE9 um objeto fascinante em nosso sistema solar, repleto
-    de caracter\xEDsticas geol\xF3gicas not\xE1veis, temperaturas extremas e uma
-    hist\xF3ria intrigante. Entre suas caracter\xEDsticas not\xE1veis est\xE3o os
-    vulc\xF5es gigantes, com destaque para o Monte Olimpo, a maior montanha do sistema
-    solar. A t\xEAnue atmosfera de Marte resulta em temperaturas m\xE9dias extremamente
-    frias, em torno de -90\xB0C. Al\xE9m disso, o planeta apresenta tempestades de
-    poeira que obscurecem sua superf\xEDcie, contribuindo para sua atmosfera \xFAnica.\r\n\r\nMarte
-    tem duas luas, Fobos e Deimos, cuja origem \xE9 tema de estudo e debate. A cor
-    caracter\xEDstica do planeta deve-se \xE0 presen\xE7a de \xF3xido de ferro em
-    sua superf\xEDcie, o que lhe confere o apelido de \"Planeta Vermelho\". A explora\xE7\xE3o
-    cont\xEDnua por meio de miss\xF5es, como o rover Curiosity, tem contribu\xEDdo
-    para nossa compreens\xE3o do planeta. Teorias intrigantes incluem a possibilidade
-    de oceanos antigos em sua superf\xEDcie e a teoria do efeito estufa, que explica
-    a evolu\xE7\xE3o de sua atmosfera e clima, al\xE9m da busca por sinais de vida.
-    Marte continua sendo um destino intrigante no sistema solar, suscitando o interesse
-    tanto de cientistas quanto de entusiastas da explora\xE7\xE3o espacial."
+  m_text: "Marte, o \"Planeta Vermelho\", \xE9 um mundo fascinante com caracter\xEDsticas
+    geol\xF3gicas not\xE1veis, como os vulc\xF5es gigantes, incluindo o Monte Olimpo,
+    a maior montanha do Sistema Solar. Sua atmosfera t\xEAnue resulta em temperaturas
+    m\xE9dias muito frias, cerca de -90\xB0C, e \xE9 marcada por tempestades de poeira
+    que obscurecem sua superf\xEDcie. Marte possui duas luas, Fobos e Deimos, cuja
+    origem ainda \xE9 debatida. A cor vermelha do planeta vem do \xF3xido de ferro
+    em sua superf\xEDcie. Miss\xF5es como o rover Curiosity ajudaram a entender melhor
+    Marte, e teorias sugerem que o planeta pode ter tido oceanos no passado, al\xE9m
+    de um efeito estufa que moldou sua atmosfera e clima. Marte continua a ser um
+    alvo de estudo e explora\xE7\xE3o, buscando respostas sobre sua hist\xF3ria e
+    a possibilidade de vida."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14486,8 +14458,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14522,7 +14494,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -429.60815, y: 0, z: -40.89061, w: 0}
+  m_margin: {x: -429.60815, y: 0, z: 342.28934, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -18282,7 +18254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193, y: 281}
+  m_AnchoredPosition: {x: 191, y: 285}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692533685
@@ -18305,28 +18277,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Saturno: O Senhor dos An\xE9is e Suas Maravilhas Celestes\r\n\r\nSaturno,
-    o sexto planeta do sistema solar, \xE9 uma maravilha celestial que h\xE1 muito
-    tempo captura a imagina\xE7\xE3o da humanidade. Com sua atmosfera predominantemente
-    composta de hidrog\xEAnio e h\xE9lio e temperaturas extremamente frias, Saturno
-    \xE9 conhecido por seus espetaculares an\xE9is, que consistem em sete faixas
-    principais compostas de gelo e poeira. A famosa \"Divis\xE3o de Cassini\" \xE9
-    uma caracter\xEDstica not\xE1vel, e a observa\xE7\xE3o desses an\xE9is tem sido
-    uma fonte de fasc\xEDnio ao longo da hist\xF3ria, desde as primeiras observa\xE7\xF5es
-    de Galileu Galilei em 1610.\r\n\r\nAl\xE9m dos an\xE9is, Saturno tamb\xE9m abriga
-    uma variada cole\xE7\xE3o de luas intrigantes, com destaque para Tit\xE3, uma
-    lua com uma superf\xEDcie gelada e o potencial de abrigar oceanos de metano l\xEDquido.
-    A explora\xE7\xE3o espacial desempenhou um papel vital na compreens\xE3o deste
-    majestoso planeta e de suas luas, com miss\xF5es como a Cassini-Huygens da NASA,
-    que pousou com sucesso na lua Tit\xE3, fornecendo informa\xE7\xF5es valiosas.
-    A beleza estonteante e os mist\xE9rios c\xF3smicos de Saturno continuam a inspirar
-    a explora\xE7\xE3o e o estudo, enquanto teorias sobre a origem dos an\xE9is e
-    a busca por respostas sobre a hist\xF3ria do sistema solar continuam a intrigar
-    a comunidade cient\xEDfica. Saturno permanece como um dos objetos mais cativantes
-    e enigm\xE1ticos do sistema solar, enriquecendo nossa compreens\xE3o do cosmos.\r\n\r\n\r\n\r\n\r\n\r\n"
+  m_text: "Saturno, o sexto planeta do Sistema Solar, \xE9 uma maravilha celestial
+    conhecido por seus impressionantes an\xE9is, compostos por gelo e poeira, al\xE9m
+    de uma atmosfera de hidrog\xEAnio e h\xE9lio e temperaturas extremamente frias.
+    A \"Divis\xE3o de Cassini\" \xE9 uma caracter\xEDstica marcante dos an\xE9is.
+    Desde as observa\xE7\xF5es de Galileu Galilei em 1610, Saturno tem fascinado
+    os cientistas. O planeta tamb\xE9m abriga v\xE1rias luas, com destaque para Tit\xE3,
+    que possui uma superf\xEDcie gelada e pode ter oceanos de metano l\xEDquido.
+    Miss\xF5es como a Cassini-Huygens da NASA forneceram valiosas informa\xE7\xF5es,
+    incluindo o pouso bem-sucedido em Tit\xE3. Saturno continua a ser um dos objetos
+    mais enigm\xE1ticos e cativantes do Sistema Solar, com mist\xE9rios sobre a origem
+    de seus an\xE9is e a hist\xF3ria do sistema solar ainda sendo alvo de estudo
+    e explora\xE7\xE3o."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18350,8 +18315,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.36
-  m_fontSizeBase: 11.36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18386,7 +18351,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 146.188, z: -85.9285, w: -492.627}
+  m_margin: {x: 0, y: 146.188, z: -85.9285, w: -472.32608}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -24169,14 +24134,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 882617958}
+  m_Children: []
   m_Father: {fileID: 408326792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -345, y: 168.3}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 176, y: 0}
+  m_SizeDelta: {x: 441.3092, y: 441.3092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771612763
 MonoBehaviour:
@@ -24198,7 +24162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ddb1c36b3c4ede459563f90b50e08ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44fc70a5707e6a94d98213d8abb468c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24264,6 +24228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269b450f856930445aba28dc3e3206e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultPanel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1001 &1795893443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24363,11 +24329,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 187057360}
+  m_Father: {fileID: 949463316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 24}
+  m_AnchoredPosition: {x: 189, y: 138}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800790528
@@ -24390,21 +24356,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Terra: Nosso lar.\n\r\nA Terra, nosso planeta lar, destaca-se no Sistema
-    Solar devido \xE0 sua diversidade e not\xE1veis caracter\xEDsticas. Com cerca
-    de 70% de sua superf\xEDcie coberta por \xE1gua, nossos oceanos desempenham um
-    papel crucial na regula\xE7\xE3o do clima e na sustenta\xE7\xE3o da vida, distinguido
-    a Terra de outros corpos celestes. Al\xE9m disso, como o objeto mais massivo
-    depois do Sol no sistema, a Terra possui uma gravidade que a diferencia dos vizinhos
-    como Merc\xFArio, que enfrenta temperaturas extremas, e V\xEAnus, com seu clima
-    abrasador devido a um efeito estufa intenso. A atmosfera terrestre, rica em nitrog\xEAnio,
-    \xE9 essencial para a vida como a conhecemos.\r\n\r\nAl\xE9m disso, Saturno,
-    outro planeta do sistema, apresenta a intrigante lua Tit\xE3, conhecida por sua
-    superf\xEDcie gelada e uma atmosfera \xFAnica com compostos org\xE2nicos complexos.
-    No geral, a Terra \xE9 um planeta \xFAnico e especial, com suas vastas massas
-    de \xE1gua, gravidade estabilizadora e atmosfera rica em nitrog\xEAnio, fornecendo
-    as condi\xE7\xF5es ideais para a vida humana e merecendo nosso cuidado e preserva\xE7\xE3o
-    para as futuras gera\xE7\xF5es."
+  m_text: "A Terra \xE9 um planeta \xFAnico no Sistema Solar, destacando-se por sua
+    diversidade e condi\xE7\xF5es ideais para a vida. Aproximadamente 70% de sua
+    superf\xEDcie \xE9 coberta por \xE1gua, o que desempenha um papel crucial na
+    regula\xE7\xE3o do clima e no sustento da vida. Sua gravidade, que a diferencia
+    de planetas como Merc\xFArio e V\xEAnus, \xE9 outro aspecto fundamental. A atmosfera
+    terrestre, rica em nitrog\xEAnio, \xE9 essencial para a vida. A Terra \xE9, portanto,
+    um lugar especial, com caracter\xEDsticas que garantem as condi\xE7\xF5es perfeitas
+    para a vida humana, e merece ser preservada para as futuras gera\xE7\xF5es."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -24431,8 +24390,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -24467,7 +24426,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -480.7837, w: -468.2373}
+  m_margin: {x: 0, y: 0, z: -84.91556, w: -468.2373}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25171,11 +25130,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 157531493}
+  m_Father: {fileID: 630047846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166.3999, y: 24.700012}
+  m_AnchoredPosition: {x: 191, y: 136}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870844071
@@ -25198,24 +25157,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Urano: O Planeta Inclinado e Suas Teorias Intrigantes\r\n\r\nUrano, o
-    s\xE9timo planeta do sistema solar, \xE9 um mundo not\xE1vel por sua peculiaridade
-    e misteriosa inclina\xE7\xE3o extrema no eixo de rota\xE7\xE3o. Descoberto em
-    1781 por William Herschel, ele se destacou como o primeiro planeta a ser identificado
-    por meio de um telesc\xF3pio. Uma de suas caracter\xEDsticas mais distintivas
-    \xE9 sua rota\xE7\xE3o de lado, como se estivesse \"rolando\" no espa\xE7o, o
-    que desafiou as expectativas em rela\xE7\xE3o \xE0 orienta\xE7\xE3o dos planetas
-    em nosso sistema solar. A teoria da colis\xE3o gigante sugere que essa inclina\xE7\xE3o
-    extrema pode ser resultado de um impacto catacl\xEDsmico com um corpo celeste
-    do tamanho da Terra, que alterou permanentemente a orienta\xE7\xE3o de Urano.\r\n\r\nUrano
-    tamb\xE9m \xE9 conhecido por sua colora\xE7\xE3o azul-esverdeada devido \xE0
-    presen\xE7a de metano em sua atmosfera, que absorve a luz vermelha e reflete
-    a luz azul. Al\xE9m disso, Urano possui an\xE9is t\xEAnues e uma variedade de
-    luas fascinantes, com Tit\xE2nia sendo a maior delas. A explora\xE7\xE3o cont\xEDnua
-    deste enigm\xE1tico planeta oferece oportunidades emocionantes para desvendar
-    seus mist\xE9rios e entender melhor sua hist\xF3ria evolutiva, enquanto a teoria
-    da colis\xE3o gigante continua a intrigar a comunidade cient\xEDfica sobre a
-    forma\xE7\xE3o e evolu\xE7\xE3o de Urano."
+  m_text: "Urano, o s\xE9timo planeta do Sistema Solar, \xE9 not\xE1vel por sua extrema
+    inclina\xE7\xE3o no eixo de rota\xE7\xE3o, fazendo com que gire \"de lado\" no
+    espa\xE7o. Descoberto em 1781 por William Herschel, foi o primeiro planeta identificado
+    por telesc\xF3pio. A teoria da colis\xE3o gigante sugere que essa inclina\xE7\xE3o
+    pode ter resultado de um impacto com um corpo do tamanho da Terra. O planeta
+    tem uma colora\xE7\xE3o azul-esverdeada devido ao metano em sua atmosfera e possui
+    an\xE9is t\xEAnues e v\xE1rias luas, sendo Tit\xE2nia a maior. A explora\xE7\xE3o
+    de Urano oferece valiosas oportunidades para entender seus mist\xE9rios e sua
+    evolu\xE7\xE3o."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25242,8 +25192,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19
-  m_fontSizeBase: 19
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -25278,7 +25228,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -474.82404, w: 0}
+  m_margin: {x: 0, y: 0, z: -109.407394, w: -5.0752754}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26520,31 +26470,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Netuno: O Gigante Azul e Suas Origens Misteriosas\r\n\r\nNetuno, o oitavo
-    planeta do sistema solar, \xE9 uma esfera misteriosa que continua a cativar a
-    comunidade cient\xEDfica. Uma das teorias intrigantes sobre sua origem \xE9 a
-    migra\xE7\xE3o planet\xE1ria, que sugere que Netuno pode ter come\xE7ado sua
-    jornada mais perto do Sol antes de se deslocar para sua \xF3rbita atual, devido
-    a intera\xE7\xF5es gravitacionais com outros planetas. A descoberta de Netuno,
-    creditada a Urbain Le Verrier, foi um triunfo not\xE1vel na hist\xF3ria da astronomia,
-    pois ele previu a exist\xEAncia do planeta com base nas perturba\xE7\xF5es na
-    \xF3rbita de Urano. A explora\xE7\xE3o espacial, como a miss\xE3o da sonda Voyager
-    2, proporcionou vislumbres fascinantes de sua atmosfera turbulenta e caracter\xEDsticas
-    \xFAnicas, incluindo a lua Trit\xE3o, que apresenta vulc\xF5es de gelo ativos
-    e \xE9 alvo de grande interesse cient\xEDfico.\r\n\r\nAl\xE9m disso, Netuno \xE9
-    conhecido por seus an\xE9is, sendo o Anel Adams um dos mais not\xE1veis, compostos
-    por part\xEDculas de poeira. Suas luas, como Trit\xE3o, escondem mist\xE9rios
-    complexos, e a teoria da estrutura interna sugere camadas de \xE1gua, gelo e
-    metano em torno de um n\xFAcleo rochoso. A atmosfera distintivamente azul de
-    Netuno, resultado da absor\xE7\xE3o seletiva de metano, \xE9 uma caracter\xEDstica
-    visual marcante. Enquanto a teoria da captura de luas adiciona \xE0 intriga de
-    Netuno, sua explora\xE7\xE3o futura promete desvendar mais segredos deste planeta
-    enigm\xE1tico e contribuir para nossa compreens\xE3o do sistema solar. Netuno
-    continua a desafiar a imagina\xE7\xE3o e a pesquisa cient\xEDfica, mantendo seu
-    status como um dos destinos mais empolgantes para a explora\xE7\xE3o espacial."
+  m_text: "Netuno, o oitavo planeta do Sistema Solar, \xE9 um gigante azul envolto
+    em mist\xE9rios. Uma teoria sobre sua origem sugere que ele pode ter se formado
+    mais perto do Sol e depois migrou para sua \xF3rbita atual devido a intera\xE7\xF5es
+    gravitacionais com outros planetas. Descoberto por Urbain Le Verrier, que previu
+    sua exist\xEAncia a partir das perturba\xE7\xF5es na \xF3rbita de Urano, Netuno
+    tem fascinado cientistas desde ent\xE3o. A miss\xE3o Voyager 2 revelou aspectos
+    de sua atmosfera turbulenta e de sua lua Trit\xE3o, que possui vulc\xF5es de
+    gelo ativos.\r\n\r\nAl\xE9m disso, Netuno tem an\xE9is compostos por part\xEDculas
+    de poeira, como o Anel Adams, e suas luas, especialmente Trit\xE3o, escondem
+    mist\xE9rios sobre sua forma\xE7\xE3o. Sua atmosfera azul \xE9 causada pela absor\xE7\xE3o
+    de metano, e teorias sobre sua estrutura interna indicam camadas de \xE1gua,
+    gelo e metano em torno de um n\xFAcleo rochoso. Netuno continua a ser um alvo
+    empolgante de explora\xE7\xE3o espacial, com promessas de revelar mais sobre
+    sua origem e as complexas intera\xE7\xF5es no Sistema Solar."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
-  m_sharedMaterial: {fileID: 622321900676161458, guid: 884019e3a841ac3448cbe95261bdc781, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26568,8 +26510,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.12
-  m_fontSizeBase: 11.12
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -27194,14 +27136,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1225432713}
+  m_Children: []
   m_Father: {fileID: 629473776}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -345, y: 170}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 177, y: 2}
+  m_SizeDelta: {x: 441.3092, y: 441.3092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2096965987
 MonoBehaviour:
@@ -27223,7 +27164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 04065de1a0a1907428a72871d62cf229, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44fc70a5707e6a94d98213d8abb468c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
