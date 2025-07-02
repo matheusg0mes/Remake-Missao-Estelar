@@ -6,13 +6,11 @@ Um remake do jogo *Missão Estelar*, desenvolvido na Unity como projeto de exten
 
 ## 📌 Sobre o Projeto
 
-Este projeto foi criado com o objetivo de aplicar conhecimentos práticos em desenvolvimento de jogos 2D, utilizando a Unity Engine e programação em C#. Durante o desenvolvimento, implementamos funcionalidades como:
+Este projeto foi criado com o objetivo de aplicar conhecimentos práticos em desenvolvimento de jogos 3D, utilizando a Unity Engine e programação em C#. Durante o desenvolvimento, implementamos funcionalidades como:
 
 - Movimentação fluida do jogador
 - Tiro e colisão com inimigos
 - Pontuação dinâmica
-- Geração contínua de inimigos
-- Tela de início, gameplay e tela de game over
 - Organização em cenas distintas
 - Scripts otimizados com uso de orientação a objetos
 
@@ -26,8 +24,3 @@ Este projeto foi criado com o objetivo de aplicar conhecimentos práticos em des
 
 ---
 
-## 🚀 Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/matheusg0mes/Remake-Missao-Estelar.git
